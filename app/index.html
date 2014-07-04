@@ -16,6 +16,7 @@
     <script>
       window.SimpleauthDemoENV = {{ENV}};
       window.EmberENV = window.SimpleauthDemoENV.EmberENV;
+      window.ENV = window.ENV || {};
 
       window.ENV['simple-auth'] = {
         authorizer: 'simple-auth-authorizer:devise'
