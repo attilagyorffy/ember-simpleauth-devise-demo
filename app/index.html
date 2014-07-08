@@ -19,7 +19,9 @@
       window.ENV = window.ENV || {};
 
       window.ENV['simple-auth'] = {
-        authorizer: 'simple-auth-authorizer:devise'
+        authorizer: 'simple-auth-authorizer:devise',
+        crossOriginWhitelist: ['http://localhost:3000'],
+        store: 'simple-auth-session-store:cookie'
       }
     </script>
     <script src="assets/vendor.js"></script>
