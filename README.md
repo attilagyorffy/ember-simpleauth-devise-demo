@@ -1,25 +1,9 @@
 # Simpleauth-demo
 
-This README outlines the details of collaborating on this Ember application.
+This is an example Ember CLI application that uses [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth) with a [Cookie Store](https://github.com/simplabs/ember-simple-auth/tree/master/packages/ember-simple-auth-cookie-store).
 
-## Installation
+It authenticates successfully with a Rails back-end that uses Devise.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+See the [instructions](https://github.com/simplabs/ember-simple-auth/tree/master/packages/ember-simple-auth-devise) on how to set up the server side.
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+See [`packages.json`](https://github.com/liquid/ember-simpleauth-devise-demo/blob/master/package.json) for a list of direct dependencies and their versions.
